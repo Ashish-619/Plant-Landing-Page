@@ -1,0 +1,80 @@
+.headerContainer {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    margin: 0;
+    padding: 1em 5vw;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    z-index: 1000;
+    box-sizing: border-box;
+    font-size: 1.5vw;
+}
+
+.leftPart {
+    display: flex;
+    align-items: center;
+    gap: 1vw;
+}
+
+.leftPart img {
+    width: 3vw;
+    height: auto;
+}
+
+.middlePart {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.middlePart ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.middlePart ul li {
+    margin: 0 2vw;
+}
+
+.middlePart ul li a {
+    position: relative;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+.middlePart ul li a:hover::after {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    /* Adjust the position of the line */
+    left: 50%;
+    /* Start the line from the center of the anchor tag */
+    transform: translateX(-50%);
+    /* Center the line horizontally */
+    width: 50%;
+    /* Set the width to cover half of the anchor tag's width */
+    height: 2px;
+    background-color: rgb(17, 56, 17);
+
+}
+
+
+.rightPart {
+    display: flex;
+    align-items: center;
+
+    button {
+        background-color: rgb(17, 56, 17);
+        padding: 1vw 3vw;
+        border-radius: 10vw;
+        color: white;
+    }
+}

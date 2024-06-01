@@ -1,0 +1,88 @@
+.outerContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    margin: 3em;
+}
+
+.body2Container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2em;
+}
+
+.flowerCard {
+    display: flex;
+    justify-content: space-between;
+    background-color: blanchedalmond;
+    padding: 1em;
+    border-radius: 1em;
+    margin-right: 2em;
+    width: 50%;
+    height: 100%;
+}
+
+.flowerCardText p {
+    margin-top: 2.5em;
+}
+
+.flowerCardText h2 {
+    font-size: 3em;
+}
+
+.flowerCard img {
+    width: 50%;
+    height: auto;
+    align-self: flex-end;
+}
+
+.rightPartition {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 45%;
+}
+
+.pot1,
+.pot2 {
+    display: flex;
+    background-color: rgb(228, 221, 221);
+    width: 100%;
+    border-radius: 1.5em;
+    padding: 1.5em;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pot1 {
+    margin-bottom: 1em;
+}
+
+.pot2 {
+    background-color: rgba(19, 102, 41, 0.446);
+    color: white;
+}
+
+.pot1 img,
+.pot2 img {
+    width: 20%;
+    height: auto;
+}
+
+.pot1Text,
+.pot2Text,
+.flowerCardText {
+    flex: 1;
+}
+
+.pot1 img,
+.pot2 img,
+.flowerCard img {
+    margin-left: 1em;
+}
+
+.flowerCardText span,
+.pot1 span,
+.pot2 span {
+    border-bottom: 2px solid black;
+}

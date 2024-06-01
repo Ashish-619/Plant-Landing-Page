@@ -1,0 +1,53 @@
+.navButtonsContainer {
+    display: flex;
+    justify-content: space-between;
+    gap: 1em;
+    padding: 1em;
+    width: 50%;
+    margin-left: 2em;
+    margin-top: -10%;
+}
+
+.button {
+    padding: 10px 30px;
+    border-radius: 2em;
+    border: 1px solid black;
+    cursor: pointer;
+    font-size: 1em;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button::before {
+    content: '';
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    /* Make it a circle */
+    background-image: url('../../../public/images/Plant 3.png');
+    background-size: cover;
+    margin-right: 10px;
+}
+
+.navButtonsContainer .button:first-child::before {
+    content: none;
+}
+
+.navButtonsContainer .button:first-child {
+    background-color: rgb(79, 214, 79);
+}
+
+.badge {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    background-color: chocolate;
+    color: white;
+    border-radius: 50%;
+    /* Make it a circle */
+    padding: 5px;
+    font-size: 0.8em;
+    font-weight: bold;
+}

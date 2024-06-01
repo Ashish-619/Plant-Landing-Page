@@ -1,0 +1,49 @@
+/* Body5.module.css */
+
+.outerContainer1 {
+    position: relative; /* Positioning context for pseudo-element */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 2em;
+}
+
+.outerContainer1 img {
+    width: 25%; /* Adjust image width as needed */
+    height: auto;
+    transform: rotate(45deg); /* Rotate the image */
+    margin-right: 1em; /* Add margin to separate image from text */
+    position: relative; /* Ensure positioning context for z-index */
+    z-index: 1; /* Ensure image is above the pseudo-element */
+}
+
+.outerContainer1::before {
+    content: ''; /* Required for pseudo-elements */
+    position: absolute; /* Positioning relative to outerContainer1 */
+    top: 50%; /* Adjust top position to center the half-circle */
+    left: 0.1%; /* Adjust left position to center the half-circle */
+    transform: translate(-50%, -50%); /* Center the half-circle */
+    width: 50%; /* Adjust width of the half-circle */
+    height: 100%; /* Height same as outerContainer1 */
+    background-color: rgb(153, 231, 196); /* Color of the half-circle */
+    border-radius: 50%; /* Create a circle shape */
+    z-index: 0; /* Ensure the half-circle is behind the image */
+}
+
+.textArea1 {
+    width: 50%;
+    height: auto;
+}
+
+.textArea1 h2 {
+    margin: 0;
+    text-align: left;
+    margin-bottom: 1em;
+    color: rgba(73, 188, 73, 0.862);
+    font-size: 2em;
+}
+
+.textArea1 p {
+    margin: 0;
+    color: gray;
+}

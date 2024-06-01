@@ -1,0 +1,57 @@
+.testimonialContainer {
+    display: flex;
+    margin: 2em;
+    justify-content: space-evenly;
+}
+
+.leftText {
+    width: 50%;
+    height: auto;
+}
+
+.leftText h2 {
+    font-size: 3em;
+}
+
+.testimonialContainer img {
+    width: 25%;
+    height: auto;
+}
+
+
+
+.carouselButton {
+    width: 10%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20%;
+    margin: 1em;
+}
+
+.testimonialContainer button:nth-of-type(1) {
+    background-color: chocolate;
+    border-radius: 50%;
+    width: 1%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    cursor: pointer;
+}
+
+
+
+.testimonialContainer button:nth-of-type(2) {
+    background-color: rgba(164, 116, 82, 0.507);
+    border-radius: 50%;
+    width: 1%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    cursor: pointer;
+}

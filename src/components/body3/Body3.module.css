@@ -1,0 +1,20 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    overflow-x: hidden;
+}
+
+.textContainer {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    margin-left: 4vw;
+}
+
+.container img {
+    width: 20%;
+    height: auto;
+    position: relative;
+    transform: rotate(-45deg);
+    transform-origin: top;
+}

@@ -1,0 +1,91 @@
+.mainContainer {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 5vw;
+    margin-top: 10vh;
+}
+
+.leftCard {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 27vw;
+    height: min-content;
+
+    pre {
+        font-size: 3vw;
+        font-weight: 500;
+        text-align: left;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    span {
+        color: chocolate;
+    }
+
+    p {
+        text-align: left;
+        color: rgb(121, 118, 118);
+        font-family: 'Times New Roman', Times, serif;
+        margin-bottom: 5vh;
+        font-size: 1.4vw;
+    }
+
+    button {
+        border-radius: 10vw;
+        background-color: chocolate;
+        color: white;
+    }
+}
+
+.rightCard {
+    display: flex;
+    background-color: aliceblue;
+    align-items: flex-end;
+    border-radius: 15% 0 0 15%;
+    width: 65vw;
+}
+
+.rightCard > img {
+    width: 30vw;
+    height: auto;
+    margin-left: -12%;
+
+}
+
+.rightCardInner {
+    display: flex;
+    background-color: #26334d;
+    padding: 1em;
+    border-radius: 1em;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    height: fit-content;
+    margin-bottom: 12vh;
+
+    h2 {
+
+        font-size: 2vw;
+    }
+
+    P {
+        font-size: 1vw;
+    }
+
+    a {
+        color: white;
+        font-size: 1vw;
+        text-decoration: none;
+        border-bottom: 2px solid white;
+        padding-bottom: 3px;
+    }
+
+    img {
+        background-color: beige;
+        border-radius: 1em;
+        height: 25vh;
+        width: 10vw;
+        transform: scale(0.7);
+    }
+}
